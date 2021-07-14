@@ -7,6 +7,7 @@ export interface Post {
     title: string;
     postContent: string;
     activeStatus: boolean;
+    comments: [string]
 }
 
 export interface FetchPostsAction {
